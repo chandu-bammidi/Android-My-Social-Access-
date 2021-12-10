@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/gradient1"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DisplayScreen">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
+        android:id="@+id/box"
+        android:background="@drawable/roundedcorner"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/tv11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="My Social Access"
+            android:textSize="25dp"
+            android:layout_marginTop="55dp"
+            android:layout_marginLeft="98dp"
+            android:fontFamily="sans-serif-light"
+            android:textStyle="bold"
+            android:textColor="@android:color/secondary_text_light"
+            />
+
+
+        <EditText
+            android:id="@+id/fb"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="52dp"
+            android:ems="10"
+            android:hint="@string/fb"
+            android:inputType="textPersonName"
+            android:autofillHints=""
+            />
+        <EditText
+            android:id="@+id/insta"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/fb"
+            android:layout_marginTop="30dp"
+            android:textSize="18dp"
+            android:hint="@string/insta"
+            />
+        <EditText
+            android:id="@+id/twitter"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/insta"
+            android:layout_marginTop="30dp"
+            android:textSize="18dp"
+            android:hint="@string/twitter"
+            />
+        <EditText
+            android:id="@+id/github"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/twitter"
+            android:layout_marginTop="30dp"
+            android:textSize="18dp"
+            android:hint="@string/github"
+            />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="175dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/edittextround"
+            android:onClick="QRCodeButton"
+            android:text="@string/qr_code" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="175dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="110dp"
+            android:background="@drawable/edittextround"
+            android:onClick="scanqr1"
+            android:text="Scan Qr"
+            tools:ignore="OnClick" />
+
+    </LinearLayout>
+
+</LinearLayout>

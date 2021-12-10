@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient1"
+    tools:context=".MainActivity">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/roundedcorner">
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Social Access \n\n\n  Login/Signup"
+        android:layout_marginTop="55dp"
+        android:layout_marginLeft="98dp"
+        android:textSize="25dp"
+        android:fontFamily="sans-serif-light"
+        android:textStyle="bold"
+        android:textColor="@android:color/secondary_text_light"
+        />
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="85dp"
+        android:fontFamily="sans-serif-light"
+        android:text="All Social Media Profiles in one Place"
+        android:textColor="@android:color/black"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:layout_width="380dp"
+        android:layout_height="50dp"
+        android:inputType="textEmailAddress"
+        android:hint="Enter Email"
+        android:textColor="#000"
+        android:ems="10"
+        android:layout_below="@+id/tv2"
+        android:layout_marginTop="20dp"
+        android:id="@+id/editEmail"
+        android:layout_centerHorizontal="true"
+        />
+
+    <EditText
+        android:layout_width="380dp"
+        android:layout_height="50dp"
+        android:inputType="textPassword"
+        android:hint="Enter Password"
+        android:textColor="#000"
+        android:ems="10"
+        android:layout_below="@+id/editEmail"
+        android:layout_marginTop="20dp"
+        android:id="@+id/editPassword"
+        android:layout_centerHorizontal="true"
+        />
+
+    <Button
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonLogin"
+        android:layout_below="@+id/editPassword"
+        android:background="@drawable/edittextround"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:text="Sign In "/>
+
+    <Button
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonRegister"
+        android:layout_below="@+id/buttonLogin"
+        android:background="@drawable/edittextround"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Sign Up"/>
+</RelativeLayout>
+</RelativeLayout>

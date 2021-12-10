@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient1"
+    tools:context=".activityafterlogin">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/loginround"
+    android:orientation="vertical">
+    <ImageButton
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="80dp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/imgbut1"
+        android:background="@android:color/white"
+        android:src="@drawable/hahah"
+        />
+    <TextView
+        android:id="@+id/genqr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Qr"
+        android:textSize="25dp"
+        android:layout_marginTop="0dp"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="sans-serif-light"
+        android:textStyle="bold"
+        android:textColor="@android:color/secondary_text_light"
+        />
+    <ImageButton
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/imgbut2"
+        android:background="@android:color/white"
+        android:src="@drawable/hehehe" />
+    <TextView
+        android:id="@+id/scantv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Scan QR"
+        android:textSize="25dp"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="sans-serif-light"
+        android:textStyle="bold"
+        android:textColor="@android:color/secondary_text_light"
+        />
+</LinearLayout>
+
+</RelativeLayout>

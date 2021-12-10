@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/darker_gray"
+    tools:context="com.example.etpproject.scanqr"
+    >
+    <FrameLayout
+        android:layout_width="260dp"
+        android:layout_height="260dp"
+        android:background="@drawable/qrframe"
+        android:layout_gravity="center"
+        android:layout_marginTop="150dp"
+        >
+        <androidx.camera.view.PreviewView
+            android:id="@+id/activity_main_previewView"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="0dp"
+            tools:ignore="MissingClass" />
+    </FrameLayout>
+    <TextView
+        android:id="@+id/scntv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Place the code inside the frame"
+
+        android:layout_gravity="center"
+        android:textSize="15dp"
+        android:fontFamily="sans-serif-light"
+        android:textStyle="bold"
+        android:textColor="@android:color/secondary_text_light"
+        />
+    <Button
+        android:id="@+id/activity_main_qrCodeFoundButton"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="Get Results"
+        android:layout_gravity="center"
+        />
+
+</LinearLayout>

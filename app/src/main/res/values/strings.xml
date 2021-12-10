@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Etp Project</string>
+    <string name="qr_code">Generate Qr</string>
+    <string name="fb">Enter Facebook Profile Name</string>
+    <string name="insta">Enter Instagram Profile Name</string>
+    <string name="twitter">Enter Twitter Profile Name</string>
+    <string name="github">Enter Github Profile Name</string>
+</resources>

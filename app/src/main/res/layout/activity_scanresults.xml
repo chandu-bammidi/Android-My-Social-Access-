@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient1"
+    tools:context=".scanresults">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/roundedcorner"
+        >
+    <TextView
+        android:id="@+id/scntv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Scan Results"
+        android:layout_marginTop="55dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="25dp"
+        android:fontFamily="sans-serif-light"
+        android:textStyle="bold"
+        android:textColor="@android:color/secondary_text_light"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/scntv"
+        android:textSize="15dp"
+        android:fontFamily="sans-serif-light"
+        android:textStyle="bold"
+        android:layout_marginTop="25dp"
+        android:textColor="@android:color/secondary_text_light"
+        android:id="@+id/scanrestv"/>
+    </RelativeLayout>
+</RelativeLayout>
